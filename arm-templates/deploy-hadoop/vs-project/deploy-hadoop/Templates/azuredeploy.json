@@ -6,7 +6,7 @@
       "type": "string",
       "minLength": 2,
       "maxLength": 5,
-      "defaultValue": "rei",
+      "defaultValue": "cnr",
       "metadata": {
         "description": "Prefix for the Environment (2-5 characters) related to the Client ID or Name."
       }
@@ -83,10 +83,10 @@
     },
     "ambariServerImageSku": {
       "type": "string",
-      "defaultValue": "6.6",
+      "defaultValue": "7.3",
       "allowedValues": [
         "6.5",
-        "6.6",
+        "7.3",
         "14.04.2-LTS",
         "16.04-LTS"
       ],
@@ -191,10 +191,10 @@
     },
     "hadoopServerImageSku": {
       "type": "string",
-      "defaultValue": "6.6",
+      "defaultValue": "7.3",
       "allowedValues": [
         "6.5",
-        "6.6",
+        "7.3",
         "14.04.2-LTS",
         "16.04-LTS"
       ],
