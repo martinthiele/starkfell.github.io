@@ -238,14 +238,14 @@
     },
     "deployAmbariServerScriptURI": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/starkfell/starkfell.github.io/master/arm-templates/deploy-hadoop/vs-project/deploy-hadoop/Scripts/deploy-ambari-centos-6.8.sh",
+      "defaultValue": "https://raw.githubusercontent.com/martinthiele/starkfell.github.io/master/arm-templates/deploy-hadoop/vs-project/deploy-hadoop/Scripts/deploy-ambari-centos-7.3.sh",
       "metadata": {
         "description": "The URI of the Ambari Server Deployment Script."
       }
     },
     "deployAmbariServerScriptName": {
       "type": "string",
-      "defaultValue": "deploy-ambari-centos-6.8.sh",
+      "defaultValue": "deploy-ambari-centos-7.3.sh",
       "metadata": {
         "description": "The Name of the Ambari Server Deployment Script."
       }
