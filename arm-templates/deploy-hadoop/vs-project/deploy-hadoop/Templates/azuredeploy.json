@@ -54,7 +54,7 @@
     },
     "ambariServerAdminPassword": {
       "type": "securestring",
-      "defaultValue": "DataMein1@#$",
+      "defaultValue": "6D6yhqD>KQwy",
       "metadata": {
         "Description": "The Local Password of the account being created on the Ambari Server."
       }
@@ -120,7 +120,8 @@
         "Standard_DS1_v2",
         "Standard_DS2_v2",
         "Standard_DS3_v2",
-        "Standard_DS4_v2"
+        "Standard_DS4_v2",
+        "Standard_DS12_v2"
       ],
       "metadata": {
         "description": "The Size of the Ambari Server VM being deployed in Azure."
@@ -162,7 +163,7 @@
     },
     "hadoopServerAdminPassword": {
       "type": "securestring",
-      "defaultValue": "DataMein1@#$",
+      "defaultValue": "6D6yhqD>KQwy",
       "metadata": {
         "Description": "The Local Password of the account being created on the Hadoop Server Instance."
       }
@@ -216,7 +217,7 @@
       "type": "int",
       "defaultValue": 50,
       "metadata": {
-        "description": "The Size of the Hadoop Server Instance Data Disk in GB."
+        "description": "The Size of the Hadoop Server Instance Data Disk in GB. max of 1023"
       }
     },
     "hadoopServerVMSize": {
@@ -228,7 +229,8 @@
         "Standard_DS1_v2",
         "Standard_DS2_v2",
         "Standard_DS3_v2",
-        "Standard_DS4_v2"
+        "Standard_DS4_v2",
+        "Standard_DS12_v2"
       ],
       "metadata": {
         "description": "The Size of the Hadoop Server Instance VM being deployed in Azure."
